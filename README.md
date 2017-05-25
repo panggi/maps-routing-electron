@@ -154,7 +154,7 @@ Sample Response:
 
 * Make sure Elasticsearch is up and running.
 
-* Create Elasticsearch mapping by running `$ curl -X "PUT" "http://localhost:9200/" -H "Content-Type:application/json" -d $'{"mappings":{"location":{"properties":{"pin":{"properties":{"location":{"type":"geo_point"}}}}}}}'`
+* Create Elasticsearch mapping by running `$ curl -X "PUT" "http://localhost:9200/bandung" -H "Content-Type:application/json" -d $'{"mappings":{"location":{"properties":{"pin":{"properties":{"location":{"type":"geo_point"}}}}}}}'`
 
 * Run `$ gem install faraday` and then `$ ruby seeder.rb` and wait till the process finished.
 
