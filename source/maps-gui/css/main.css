@@ -1,0 +1,37 @@
+body {
+  position: relative;
+}
+
+.input-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  z-index: 9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-container .label {
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  /*width: calc(50% - 20px);*/
+  font-size: 1em;
+  margin-bottom: 0;
+  border-radius: 2px;
+  line-height: 48px;
+  background: #fff;
+  box-sizing: border-box;
+  height: 48px;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+.btn i {
+  margin-right: 10px;
+}
