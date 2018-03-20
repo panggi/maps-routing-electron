@@ -1,6 +1,6 @@
 # Maps Routing Electron
 
-![screenshot](https://panggi.s3.amazonaws.com/public/media/maps-routing.jpg "Screenshot of Maps Routing Electron")
+![screenshot](/media/maps-routing.jpg "Screenshot of Maps Routing Electron")
 
 ## Stacks
 
